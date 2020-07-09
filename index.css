@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Above is the reset, below is my code */
+
+/* * {
+	border: 2px solid grey;
+} */
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+	width: 87%;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.nav-link {
+	display: inline-block;
+	border-radius: 20px;
+	width: 18%;
+	height: 90px;
+	vertical-align: middle;
+	color: white;
+	padding-top: 18px;
+	margin: 0 5%;
+	text-align: center;
+	font-size: 25px;
+}
+
+.nav-one {
+	background-color: #FC754F;
+}
+
+.nav-two{
+	background-color: #5FD3ED;
+}
+
+.nav-three{
+	background-color: #FDCD69;
+}
+
+.nav-link p {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header-image-div {
+	display: inline-block;
+	width: 30%;
+}
+.header-image-div img {
+  border-radius: 50%;
+}
+
+.title {
+	display: inline-block;
+	width: 69%;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 30px;
+}
+
+/* header {
+	border: 2px solid grey;
+} */
+
+.title h2 {
+	line-height: 50px;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 90px;
+	line-height: 120px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.subtitle {
+	width: 75%;
+	margin:	0 auto;
+}
+
+.section-one {
+	background-color: #DCB9A3;
+	color: white;
+	font-size: 35px;
+	padding: 0 3%;
+	margin-top: 5%;
+}
+
+.section-one p {
+	padding: 1% 0;
+	text-align: center;
+}
+
+.section-two {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-two img {
+	width: 40%;
+	margin-top: 7%;
+}
+
+.section-two p {
+	font-size: 25px;
+	padding: 1% 3%;
+	margin-bottom: 7%;
+}
+
+.footer-img {
+	background-image: url('assets/footer_img.jpg');
+	width: 100%;
+	height: 38vh;
+	background-size: cover;
+	background-position: 0 -100px;
+}
+
+.footer {
+	padding: 2% 6%;
+	background-color: #F9E7DD;
+}
+
+.section-two span {
+	font-weight: 700;
+}
