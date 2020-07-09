@@ -4,7 +4,6 @@
 */
 
 * {
-	border: 2px solid grey;
 	box-sizing: border-box;
 	max-width: 100%;
 }
@@ -54,9 +53,9 @@ table {
 
 /* Above is the reset, below is my code */
 
-* {
+/* * {
 	border: 2px solid grey;
-}
+} */
 
 body {
 	font-family: 'Roboto Mono', monospace;
@@ -107,7 +106,7 @@ nav {
 
 .header-image-div {
 	display: inline-block;
-	width: 20%;
+	width: 30%;
 }
 .header-image-div img {
   border-radius: 50%;
@@ -115,7 +114,7 @@ nav {
 
 .title {
 	display: inline-block;
-	width: 79%;
+	width: 69%;
 	text-align: center;
 	vertical-align: top;
 	padding-top: 30px;
@@ -127,15 +126,62 @@ nav {
 
 .title h2 {
 	line-height: 50px;
+	font-size: 40px;
+	margin-bottom: 30px;
 }
 
 h1 {
 	font-family: 'Chelsea Market', cursive;
-	font-size: 60px;
-	line-height: 80px;
+	font-size: 90px;
+	line-height: 120px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
+.subtitle {
+	width: 75%;
+	margin:	0 auto;
+}
 
-/* .subheader {
-	border: 2px solid grey;
-} */
+.section-one {
+	background-color: #DCB9A3;
+	color: white;
+	font-size: 35px;
+	padding: 0 3%;
+	margin-top: 5%;
+}
+
+.section-one p {
+	padding: 1% 0;
+	text-align: center;
+}
+
+.section-two {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-two img {
+	width: 40%;
+	margin-top: 7%;
+}
+
+.section-two p {
+	font-size: 25px;
+	padding: 1% 3%;
+	margin-bottom: 7%;
+}
+
+.footer-img {
+	background-image: url('assets/footer_img.jpg');
+	width: 100%;
+	height: 38vh;
+	background-size: cover;
+	background-position: 0 -100px;
+}
+
+.footer {
+	padding: 2% 4%;
+	background-color: #F9E7DD;
+}
