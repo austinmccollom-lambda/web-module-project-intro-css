@@ -182,6 +182,10 @@ h1 {
 }
 
 .footer {
-	padding: 2% 4%;
+	padding: 2% 6%;
 	background-color: #F9E7DD;
+}
+
+.section-two span {
+	font-weight: 700;
 }
